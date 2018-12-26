@@ -6,7 +6,7 @@ Cataloging isomers of nanopores (extended vacancy defects) in 2D lattices
 
 ## Contents
 
-**All bundled codes are written in MATLAB, and have been fully checked for compatibility with MATLAB R2016b. The following are the included programs:
+**All bundled codes are written in MATLAB, and have been fully checked for compatibility with MATLAB R2016b. The following are the included programs:**
 
 * `generate_isomers`: This program calls the `kmc_isomers` code repeatedly in order to stochastically generate a pre-determined number of isomers. To do so, the program requires:
 
@@ -18,13 +18,13 @@ Cataloging isomers of nanopores (extended vacancy defects) in 2D lattices
 
   * `compare_pores_with_weights`: This program compares two nanopore isomers, after fictitious nodes have been added into their adjacency matrices using `add_weighing_nodes_in_between`, and outputs whether the two nanopores are identical or not. 
 
- **Post-processed results are stored in the directory `catalog` under two distinct folders (`without_edge_diffusion` and `with_edge_diffusion` corresponding to the cases without and with edge diffusion of atoms, respectively):
+ **Post-processed results are stored in the directory `catalog` under two distinct folders (`without_edge_diffusion` and `with_edge_diffusion` corresponding to the cases without and with edge diffusion of atoms, respectively):**
  
  * The data for a nanopore of size `N` is stored within the subdirectory `poreN`, e.g., `pore6`,`pore16`, and so on.
  
  * The XYZ file for each most-probable isomer (MPI) of size `N` is named as: `N_MPI#_Count.xyz`, where `N` is the size of the nanopore (in terms of the number of atoms removed to form the nanopore), `MPI#` is the rank of the MPI (e.g., MPI# = 6 for the 6th most-probable isomer in the dataset), and `Count` is the number of times that MPI was observed in 1000 kinetic Monte Carlo (KMC) runs leading to the formation of an `N`-sized nanopore. For example, the 4th MPI for `N`=10 appeared 40 times in 1000 KMC runs, and its XYZ file is named as `010_004_040.xyz`.
  
-**Raw data is stored in the directory `catalog > raw_data` under two distinct folders (`without_edge_diffusion` and `with_edge_diffusion` corresponding to the cases without and with edge diffusion of atoms, respectively):
+**Raw data is stored in the directory `catalog > raw_data` under two distinct folders (`without_edge_diffusion` and `with_edge_diffusion` corresponding to the cases without and with edge diffusion of atoms, respectively):**
  
  * The data for a nanopore of size `N` is stored within the subdirectory `poreN`, e.g., `pore6`,`pore16`, and so on.
  
