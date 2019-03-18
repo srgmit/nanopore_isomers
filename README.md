@@ -2,7 +2,7 @@
 
 Cataloging isomers of nanopores (extended vacancy defects) in 2D lattices
 
-> Govind Rajan, A.; Silmore, K.; Swett, J.; Robertson, A. W.; Warner, J. H.; Blankschtein, D.; Strano, M. S. Addressing the Isomer Cataloguing Problem for Nanopores in Two-Dimensional Materials. Nature Materials, In Press.
+> Govind Rajan, A.; Silmore, K.; Swett, J.; Robertson, A. W.; Warner, J. H.; Blankschtein, D.; Strano, M. S. Addressing the isomer cataloguing problem for nanopores in two-dimensional materials. Nature Materials, 18, pp 129–135 (2019).
 
 ## Contents
 
